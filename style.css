@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 1034px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.hero {
+  padding: 0 60px;
+  height: 764px;
+  background-color: #45453D;
+}
+
+.Navbar {
+  padding-top: 30px;
+}
+
+.container {
+  max-width: 1320px;
+  margin: auto;
+}
+
+.logo, nav, ul, ul li {
+  display: inline-block;
+}
+
+.logo {
+  margin-right: 136px;
+}
+
+ul li a {
+  margin-left: 80px;
+  position: relative;
+  bottom: 8px;
+}
+
+ul li a, .contact a {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 20px;
+  letter-spacing: 2%;
+}
+
+ul li a:hover {
+  color: #FF8F73;
+}
+
+.contact:hover {
+  opacity: 60%;
+}
+
+.contact {
+  float: right;
+  padding: 15px 19px;
+  background-color: #666666;
+  bottom: 19px;
+  border-radius: 8px;
+  position: relative;
+  bottom: 16px;
+}
+
+.h1container {
+  max-width: 905px;
+  margin: auto;
+  padding-top: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 83px;
+  letter-spacing: 2%;
+  color: #FFF;
+  line-height: 113px;
+}
+
+.hidpi {
+  transform: scale(.5);
+  transform-origin: 0 0;
+  position: relative;
+  right: 210px;
+  bottom: 321px;
+}
+
+.p {
+  color: #fff;
+  font-size: 21px;
+  line-height: 33px;
+  letter-spacing: 0.02em;
+  ;
+  width: 429px;
+  height: 198px;
+  position: relative;
+  left: 438px;
+  top: 110px;
+}
+
+.p2 {
+  color: #45453D;
+  padding-top: 145px;
+}
+
+span {
+  color: #2B2B26;
+}
+
+.
